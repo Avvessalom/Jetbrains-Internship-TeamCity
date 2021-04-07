@@ -56,3 +56,8 @@ chmod +x cm
 ```shell
 ./cm selenoid_wndows_amd64.exe start -conf ./browsers.json -disable-docker
 ```
+
+# Для запуска 
+```shell
+gradle test
+```
