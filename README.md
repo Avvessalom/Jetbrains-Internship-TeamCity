@@ -49,7 +49,7 @@ chmod +x cm
 
 Для Linux/MaxOS
 ```shell
-./cm selenoid_linux_amd64 start -conf ./browsers.json -disable-docker
+./cm selenoid_linux_amd64 start -conf ./browsersL.json -disable-docker
 ```
 
 Для Windows

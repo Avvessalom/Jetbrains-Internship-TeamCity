@@ -1,10 +1,9 @@
 {
   "chrome": {
-    "default": "86.0",
+    "default": "89.0",
     "versions": {
-      "86.0": {
-        "image": "selenoid/vnc:chrome_86.0",
-        "port": "4444"
+      "89.0": {
+        "image": ["src/main/kotlin/com/gmail/eugene/lazurin/jetBrainsInternship/drivers/win/chromedriver.exe"]
       }
     }
   }

@@ -1,0 +1,10 @@
+{
+  "chrome": {
+    "default": "89.0",
+    "versions": {
+      "89.0": {
+        "image": ["src/main/kotlin/com/gmail/eugene/lazurin/jetBrainsInternship/drivers/linux/chromedriver"]
+      }
+    }
+  }
+}
