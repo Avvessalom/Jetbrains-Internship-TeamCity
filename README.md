@@ -59,5 +59,5 @@ chmod +x cm
 
 # Для запуска 
 ```shell
-gradle test
+gradlew build
 ```
