@@ -41,7 +41,7 @@ chmod +x cm
 ```shell
 ./cm.exe selenoid start --vnc
 ```
-
+![demo](gif/selenoid.gif)
 ## Без использования `Docker`
 Скачать последний релиз для своей ОС <a href="https://github.com/aerokube/selenoid/releases">отсюда</a>
 
@@ -49,15 +49,15 @@ chmod +x cm
 
 Для Linux/MaxOS
 ```shell
-./cm selenoid_linux_amd64 start -conf ./browsersL.json -disable-docker
+./selenoid_linux_amd64  -conf ./browsersL.json -disable-docker
 ```
 
 Для Windows
 ```shell
-./cm selenoid_wndows_amd64.exe start -conf ./browsers.json -disable-docker
+selenoid_wndows_amd64.exe -conf browsers.json -disable-docker
 ```
-
+![demo](http://g.recordit.co/13JvztFcSs.gif)
 # Для запуска 
 ```shell
-gradle test
+gradlew build
 ```
